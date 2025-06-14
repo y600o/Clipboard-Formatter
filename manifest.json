@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Clipboard Formatter",
+  "version": "1.0",
+  "description": "读取剪切板内容并显示，提供删除空格、删除换行符等功能。",
+  "permissions": ["clipboardRead", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
